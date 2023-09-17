@@ -1,0 +1,77 @@
+
+
+.country-card-wrapper {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    /* background-color:rgb(49, 47, 47); */
+}
+
+.dark-nav{
+    background-color: #040d2a;
+}
+
+
+
+.light-nav{
+    background-color: #d7defd;
+}
+.logo{
+    width: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+.search{
+    align-items: center;
+    display: flex;
+    
+}
+.navbar-container{
+    /* background-color:rgb(113, 113, 113); */
+    display: flex;
+    justify-content: center;
+   
+}
+
+.light-mode {
+    background-color: #eef1ff;
+    color: #333333;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #0a163a;
+    color: #ffffff;
+  }
+.search-only{
+    display: flex;
+    align-items: center;
+}
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 615px) {
+   .search-by-name{
+    width: 120px;
+   }
+   .navbar{
+   
+    width: 100vw;
+}
+  }
+  @media screen and (max-width: 500px) {
+    .search-only{
+        flex-direction: column;
+        margin-right: 10px ;
+    }
+  }
